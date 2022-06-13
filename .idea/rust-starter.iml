@@ -4,8 +4,18 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/testa/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/complex-num/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/compound-type/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/compound-type/truple/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/test-ground/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/variables/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
       <excludeFolder url="file://$MODULE_DIR$/testa/target" />
+      <excludeFolder url="file://$MODULE_DIR$/complex-num/target" />
+      <excludeFolder url="file://$MODULE_DIR$/compound-type/target" />
+      <excludeFolder url="file://$MODULE_DIR$/variables/target" />
+      <excludeFolder url="file://$MODULE_DIR$/test-ground/target" />
+      <excludeFolder url="file://$MODULE_DIR$/compound-type/truple/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

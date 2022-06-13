@@ -1,3 +1,5 @@
+mod test;
+
 struct Struct {
     e: i32,
 }
