@@ -12,21 +12,24 @@
     <cargoProject FILE="$PROJECT_DIR$/variables/Cargo.toml" />
     <cargoProject FILE="$PROJECT_DIR$/test-ground/Cargo.toml" />
     <cargoProject FILE="$PROJECT_DIR$/compound-type/truple/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/compound-type/struct-demo/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/compound-type/enum-demo/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d331399-4a7a-41eb-ae00-b0bb902b63b3" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/compound-type/truple/Cargo.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/compound-type/truple/Cargo.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/compound-type/truple/src/main.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-ground/Cargo.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-ground/Cargo.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-ground/src/main.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compound-type/enum-demo/Cargo.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compound-type/enum-demo/Cargo.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compound-type/enum-demo/src/main.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compound-type/struct-demo/Cargo.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compound-type/struct-demo/Cargo.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compound-type/struct-demo/src/main.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/rust-starter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rust-starter.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/complex-num/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/complex-num/target/.rustc_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compound-type/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/compound-type/src/main.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/compound-type/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/compound-type/target/.rustc_info.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/variables/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/variables/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compound-type/target/debug/compound-type.d" beforeDir="false" afterPath="$PROJECT_DIR$/compound-type/target/debug/compound-type.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compound-type/truple/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/compound-type/truple/src/main.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/variables/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/variables/target/.rustc_info.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,9 +50,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-pc-windows-gnu/lib/rustlib/src/rust/library/core/src/result.rs" root0="SKIP_INSPECTION" />
-    <setting file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-pc-windows-gnu/lib/rustlib/src/rust/library/core/src/str/converts.rs" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/macros.rs" root0="SKIP_INSPECTION" />
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="83rlxgr0" />
@@ -68,6 +73,8 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Notification.DisplayName-DoNotAsk-Language Plugins Notifications&quot;: &quot;Recommended language plugin available&quot;,
+    &quot;Notification.DoNotAsk-Language Plugins Notifications&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
@@ -78,13 +85,47 @@
     &quot;last_opened_file_path&quot;: &quot;E:/Github/rust-starter&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;org.rust.cargo.project.model.PROJECT_DISCOVERY&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;language.rust.cargo.check&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Cargo.Run truple">
-    <configuration name="Run rust-starter" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="run --package rust-starter --bin rust-starter" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+  <component name="RunManager" selected="Cargo.Run enum-demo">
+    <configuration name="Run compound-type" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package compound-type --bin compound-type" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/compound-type" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run enum-demo" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package enum-demo --bin enum-demo" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/compound-type/enum-demo" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run struct-demo" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package struct-demo --bin struct-demo" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/compound-type/struct-demo" />
       <option name="channel" value="DEFAULT" />
       <option name="requiredFeatures" value="true" />
       <option name="allFeatures" value="false" />
@@ -103,23 +144,6 @@
       <option name="command" value="run --package test-ground --bin test-ground" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$/test-ground" />
       <option name="channel" value="DEFAULT" />
-      <option name="requiredFeatures" value="true" />
-      <option name="allFeatures" value="false" />
-      <option name="emulateTerminal" value="false" />
-      <option name="withSudo" value="false" />
-      <option name="buildTarget" value="REMOTE" />
-      <option name="backtrace" value="SHORT" />
-      <envs />
-      <option name="isRedirectInput" value="false" />
-      <option name="redirectInputPath" value="" />
-      <method v="2">
-        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Run test-ground" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="run --package test-ground --bin test-ground" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/test-ground" />
-      <option name="channel" value="STABLE" />
       <option name="requiredFeatures" value="true" />
       <option name="allFeatures" value="false" />
       <option name="emulateTerminal" value="false" />
@@ -169,21 +193,24 @@
     </configuration>
     <list>
       <item itemvalue="Cargo.Run" />
+      <item itemvalue="Cargo.Run enum-demo" />
+      <item itemvalue="Cargo.Run struct-demo" />
+      <item itemvalue="Cargo.Run compound-type" />
       <item itemvalue="Cargo.Run truple" />
-      <item itemvalue="Cargo.Run rust-starter" />
-      <item itemvalue="Cargo.Run test-ground" />
       <item itemvalue="Cargo.Run test-ground [test-ground]" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cargo.Run enum-demo" />
+        <item itemvalue="Cargo.Run struct-demo" />
+        <item itemvalue="Cargo.Run compound-type" />
         <item itemvalue="Cargo.Run truple" />
         <item itemvalue="Cargo.Run test-ground [test-ground]" />
-        <item itemvalue="Cargo.Run test-ground" />
-        <item itemvalue="Cargo.Run rust-starter" />
       </list>
     </recent_temporary>
   </component>
   <component name="RustProjectSettings">
+    <option name="runExternalLinterOnTheFly" value="true" />
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
     <option name="version" value="2" />
   </component>
@@ -205,6 +232,8 @@
       <workItem from="1655087925243" duration="83000" />
       <workItem from="1655088045859" duration="16212000" />
       <workItem from="1655116792701" duration="3000" />
+      <workItem from="1655212033090" duration="3549000" />
+      <workItem from="1655216068687" duration="4600000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1655087489026</created>
