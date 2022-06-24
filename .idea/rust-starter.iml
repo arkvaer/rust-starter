@@ -11,6 +11,7 @@
       <sourceFolder url="file://$MODULE_DIR$/variables/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/compound-type/struct-demo/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/compound-type/enum-demo/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/compound-type/arrry/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
       <excludeFolder url="file://$MODULE_DIR$/testa/target" />
       <excludeFolder url="file://$MODULE_DIR$/complex-num/target" />
@@ -20,6 +21,7 @@
       <excludeFolder url="file://$MODULE_DIR$/compound-type/truple/target" />
       <excludeFolder url="file://$MODULE_DIR$/compound-type/struct-demo/target" />
       <excludeFolder url="file://$MODULE_DIR$/compound-type/enum-demo/target" />
+      <excludeFolder url="file://$MODULE_DIR$/compound-type/arrry/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

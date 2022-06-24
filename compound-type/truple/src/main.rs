@@ -1,5 +1,16 @@
-// 修复代码错误
 fn main() {
-    let too_long_tuple = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13);
-    println!("too long tuple: {:?}", too_long_tuple);
+    let x: (i32, f64, u8) = (500, 6.4, 1);
+
+    let five_hundred = x.0;
+
+    let six_point_four = x.1;
+
+    let one = x.2;
+    let num = 5u64;
+    println!("{}",num);
+    test(x);
+}
+
+fn test(par: (i32, f64, u8) ) {
+    println!("{:?}", par)
 }
