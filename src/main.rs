@@ -1,4 +1,22 @@
+mod flow_control;
+mod pattern_match_match;
+mod method;
+
 fn main() {
+    // flow_control::q1();
+    // flow_control::q2();
+    // flow_control::q3();
+    // flow_control::q4();
+    // flow_control::q5();
+    // flow_control::q8();
+    // flow_control::q9();
+    // flow_control::q10();
+    // flow_control::q11();
+    pattern_match_match
+}
+
+
+fn test() {
     let s1 = String::from("hello,");
     let s2 = String::from("world!");
     // 在下句中，s1的所有权被转移走了，因此后面不能再使用s1
