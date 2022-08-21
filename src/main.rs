@@ -2,6 +2,7 @@ mod flow_control;
 mod pattern_match_match;
 mod method;
 mod generic;
+mod traits;
 
 fn main() {
     // flow_control::q1();
@@ -14,12 +15,15 @@ fn main() {
     // flow_control::q10();
     // flow_control::q11();
     // pattern_match_match;
-    generic::test_sum();
-    generic::test_impl_generic();
-    generic::test_different_generic();
-    generic::q3();
-    generic::q6();
-    generic::q7();
+    // generic::test_sum();
+    // generic::test_impl_generic();
+    // generic::test_different_generic();
+    // generic::q3();
+    // generic::q6();
+    // generic::q7();
+    println!("========================================================");
+    traits::test_summary();
+
 }
 
 

@@ -1,5 +1,5 @@
 #![allow(incomplete_features)]
-
+#[allow(unused)]
 fn add<T: std::ops::Add<Output=T>>(a: T, b: T) -> T {
     a + b
 }
@@ -132,7 +132,7 @@ impl Point3<f32> {
         (self.x.powi(2) + self.y.powi(2)).sqrt()
     }
 }
-
+#[allow(unused)]
 pub fn q7() {
     let p = Point3{x: 5_f32, y: 10_f32};
     println!("{}",p.distance_from_origin())
