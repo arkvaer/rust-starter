@@ -1,7 +1,7 @@
 mod flow_control;
-mod pattern_match_match;
-mod method;
 mod generic;
+mod method;
+mod pattern_match_match;
 mod traits;
 
 fn main() {
@@ -23,18 +23,17 @@ fn main() {
     // generic::q7();
     println!("========================================================");
     traits::test_summary();
-
+    traits::test_prelude();
 }
-
 
 fn test() {
     let s1 = String::from("hello,");
     let s2 = String::from("world!");
     // 在下句中，s1的所有权被转移走了，因此后面不能再使用s1
     let s3 = s1 + &s2;
-    assert_eq!(s3,"hello,world!");
+    assert_eq!(s3, "hello,world!");
     println!("{}", s3);
-    let f = format!("{}{}","Hello ", &s2);
+    let f = format!("{}{}", "Hello ", &s2);
     dbg!(f);
     // 下面的语句如果去掉注释，就会报错
     // println!("{}",s1);
